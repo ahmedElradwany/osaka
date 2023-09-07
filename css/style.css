@@ -1,0 +1,138 @@
+body{
+    font-family: 'Segoe UI light';
+    font-size: 19px;
+
+}
+a{
+    text-decoration: none;
+}
+.navbar-nav{
+    /* background-color: yellowgreen; */
+    margin-left: auto;
+}
+.nav-link{
+    color: #fff !important;
+    font-size:1.1rem;
+}
+.intoduc{
+    background-image: url(../image/beach-restaurant-evening.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.layer{
+    background-color:rgb(0, 0,0,0.055);
+    height: 100%;
+}
+.text-opacity{
+    color: rgb(255, 255, 255,.65);
+
+}
+.text-side{
+    position: relative;
+    transform:rotate(-90deg);
+    transform-origin: top right;
+}
+.text-side::after{
+    content:"";
+    background-color: #fff;
+    position: absolute;
+    width: 2.5rem;
+    height: 4px;
+    right: 105%;
+    top: 50%;
+}
+.head-content{
+    margin-top:25px !important;
+    padding-top: 25px !important;
+}
+
+.color-mine{
+    color: rgb(238, 176, 20);
+    font-weight: bolder;
+}
+#home i{
+    color: rgb(238, 176, 20);
+    font-size: 1.5rem;
+    margin: 20px 0px;
+}
+#home h2,h4{
+    font-weight: bolder !important;
+}
+#about{
+    background-image: url(..//image/gray-abstract-wireframe-technology-background.jpg);
+    background-size:cover;
+}
+.about-img{
+    height:55vh !important;
+    width:75% !important;
+}
+.meal{
+    /* background-color: yellow; */
+    margin:10px;
+    padding:5px;
+}
+.meal img{
+    height:60% !important;
+    width:75% !important;
+    border-radius:10%;
+}
+.meal img:hover{
+    transform: translateY(-15px);
+}
+.heading{
+    font-family: sans-serif;
+    align-items: center;
+}
+.heading h2{
+    font-size:6rem;
+    font-weight: 900;
+    color: #f1f1f1;
+}
+.heading h3{
+    font-size:2.5rem;
+    font-weight: 900;
+}
+.card{
+    text-align: left !important;
+}
+.card-info{
+    font-size: 0.9rem;
+    color: rgb(238, 176, 20);
+}
+.calee{
+    margin-right:1.8rem;
+}
+.card-icon{
+    position: absolute; 
+    bottom: 88%;
+    right: 10%;
+    border-radius: 50%;
+}
+.fa-book-open{
+    color: rgb(238, 176, 20);
+    
+}
+/* footer */
+.social i:hover{
+    color: rgb(238, 176, 20) !important;
+    font-size:1.8rem;
+}
+.logo{
+    color: rgb(238, 176, 20);
+    font-weight: bolder;
+}
+.map{
+    display: flex;
+    justify-content: center;
+}
+.map img{
+    width:80%;
+}
+.describ-map i{
+    color: rgb(238, 176, 20);
+    margin:7px;
+}
+.describ-map a{
+    color: black;
+
+}
